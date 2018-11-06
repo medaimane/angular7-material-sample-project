@@ -8,13 +8,15 @@ import { AppMaterialModule } from './app-material/app-material.module';
 import { ToolbarComponent } from './toolbar/toolbar.component';
 import { GridlistComponent } from './gridlist/gridlist.component';
 import { HomeComponent } from './home/home.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ToolbarComponent,
     GridlistComponent,
-    HomeComponent
+    HomeComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
