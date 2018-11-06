@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'angular7-simple-project';
+  title = 'Angular 7 & Angular Material';
+  author = 'medaimane';
+  description = 'Angular 7 & Angular Material Simple boilerplate project';
 }
