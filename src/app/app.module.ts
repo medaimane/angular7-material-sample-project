@@ -7,12 +7,14 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppMaterialModule } from './app-material/app-material.module';
 import { ToolbarComponent } from './toolbar/toolbar.component';
 import { GridlistComponent } from './gridlist/gridlist.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ToolbarComponent,
-    GridlistComponent
+    GridlistComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
