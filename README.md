@@ -1,4 +1,10 @@
-# Angular7SimpleProject
+# Angular7 Simple App Project
+
+## Architecture overview
+
+Basic schema for the main building blocks of an Angular application :
+
+![angular-basic](https://angular.io/generated/images/guide/architecture/overview2.png)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.4.
 
