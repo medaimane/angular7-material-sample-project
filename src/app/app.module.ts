@@ -10,6 +10,9 @@ import { GridlistComponent } from './components/gridlist/gridlist.component';
 import { HomeComponent } from './components/home/home.component';
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
+import { MainNavigationComponent } from './components/main-navigation/main-navigation.component';
+import { LayoutModule } from '@angular/cdk/layout';
+import { MatToolbarModule, MatButtonModule, MatSidenavModule, MatIconModule, MatListModule } from '@angular/material';
 
 @NgModule({
   declarations: [
@@ -18,13 +21,20 @@ import { DashboardComponent } from './components/dashboard/dashboard.component';
     GridlistComponent,
     HomeComponent,
     PageNotFoundComponent,
-    DashboardComponent
+    DashboardComponent,
+    MainNavigationComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    AppMaterialModule
+    AppMaterialModule,
+    LayoutModule,
+    MatToolbarModule,
+    MatButtonModule,
+    MatSidenavModule,
+    MatIconModule,
+    MatListModule
   ],
   providers: [],
   bootstrap: [AppComponent]
