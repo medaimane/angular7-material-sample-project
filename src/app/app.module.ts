@@ -14,11 +14,11 @@ import {PageNotFoundComponent} from './components/page-not-found/page-not-found.
 import {MainNavigationComponent} from './components/main-navigation/main-navigation.component';
 import {DashboardComponent} from './components/dashboard/dashboard.component';
 import { FormExampleComponent } from './components/form-example/form-example.component';
-import { MatInputModule, MatButtonModule, MatSelectModule, MatRadioModule, MatCardModule, MatTableModule, MatPaginatorModule, MatSortModule } from '@angular/material';
 import { ReactiveFormsModule } from '@angular/forms';
 import { DatasourceExampleComponent } from './components/datasource-example/datasource-example.component';
 import { DragDropExampleComponent } from './components/drag-drop-example/drag-drop-example.component';
 import { DragDropModule } from '@angular/cdk/drag-drop';
+import { TreeFilesystemComponent } from './components/tree-filesystem/tree-filesystem.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +31,8 @@ import { DragDropModule } from '@angular/cdk/drag-drop';
     DashboardComponent,
     FormExampleComponent,
     DatasourceExampleComponent,
-    DragDropExampleComponent
+    DragDropExampleComponent,
+    TreeFilesystemComponent
   ],
   imports: [
     BrowserModule,
@@ -39,15 +40,7 @@ import { DragDropModule } from '@angular/cdk/drag-drop';
     BrowserAnimationsModule,
     AppMaterialModule,
     LayoutModule,
-    MatInputModule,
-    MatButtonModule,
-    MatSelectModule,
-    MatRadioModule,
-    MatCardModule,
     ReactiveFormsModule,
-    MatTableModule,
-    MatPaginatorModule,
-    MatSortModule,
     DragDropModule
   ],
   providers: [],
