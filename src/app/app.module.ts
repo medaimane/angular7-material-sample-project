@@ -13,6 +13,9 @@ import {HomeComponent} from './components/home/home.component';
 import {PageNotFoundComponent} from './components/page-not-found/page-not-found.component';
 import {MainNavigationComponent} from './components/main-navigation/main-navigation.component';
 import {DashboardComponent} from './components/dashboard/dashboard.component';
+import { FormExampleComponent } from './components/form-example/form-example.component';
+import { MatInputModule, MatButtonModule, MatSelectModule, MatRadioModule, MatCardModule } from '@angular/material';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -22,14 +25,21 @@ import {DashboardComponent} from './components/dashboard/dashboard.component';
     HomeComponent,
     PageNotFoundComponent,
     MainNavigationComponent,
-    DashboardComponent
+    DashboardComponent,
+    FormExampleComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     AppMaterialModule,
-    LayoutModule
+    LayoutModule,
+    MatInputModule,
+    MatButtonModule,
+    MatSelectModule,
+    MatRadioModule,
+    MatCardModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
