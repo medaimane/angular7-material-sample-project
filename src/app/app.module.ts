@@ -17,6 +17,8 @@ import { FormExampleComponent } from './components/form-example/form-example.com
 import { MatInputModule, MatButtonModule, MatSelectModule, MatRadioModule, MatCardModule, MatTableModule, MatPaginatorModule, MatSortModule } from '@angular/material';
 import { ReactiveFormsModule } from '@angular/forms';
 import { DatasourceExampleComponent } from './components/datasource-example/datasource-example.component';
+import { DragDropExampleComponent } from './components/drag-drop-example/drag-drop-example.component';
+import { DragDropModule } from '@angular/cdk/drag-drop';
 
 @NgModule({
   declarations: [
@@ -28,7 +30,8 @@ import { DatasourceExampleComponent } from './components/datasource-example/data
     MainNavigationComponent,
     DashboardComponent,
     FormExampleComponent,
-    DatasourceExampleComponent
+    DatasourceExampleComponent,
+    DragDropExampleComponent
   ],
   imports: [
     BrowserModule,
@@ -44,7 +47,8 @@ import { DatasourceExampleComponent } from './components/datasource-example/data
     ReactiveFormsModule,
     MatTableModule,
     MatPaginatorModule,
-    MatSortModule
+    MatSortModule,
+    DragDropModule
   ],
   providers: [],
   bootstrap: [AppComponent]
